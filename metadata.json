@@ -1,0 +1,8 @@
+{
+  "name": "Meu Luuk - Seu Guarda-Roupa Inteligente",
+  "description": "Uma plataforma moderna para digitalizar seu guarda-roupa, planejar looks em segundos e consultar uma assistente de estilo IA personalizada.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
