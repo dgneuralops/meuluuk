@@ -33,8 +33,8 @@ const App: React.FC = () => {
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a className="font-medium hover:text-wine dark:hover:text-primary transition-colors" href="#how-it-works">Como funciona</a>
-            <a className="font-medium hover:text-wine dark:hover:text-primary transition-colors" href="#pricing">Preços</a>
-            <a className="bg-primary text-wine font-bold px-6 py-2.5 rounded-full hover:scale-105 transition-transform" href="https://pay.kiwify.com.br/oCcX4pQ" target="_blank" rel="noopener noreferrer">Baixar Agora</a>
+            <a className="font-medium hover:text-wine dark:hover:text-primary transition-colors" href="#pricing">Preço</a>
+            <a className="bg-primary text-wine font-bold px-6 py-2.5 rounded-full hover:scale-105 transition-transform" href="https://pay.kiwify.com.br/oCcX4pQ" target="_blank" rel="noopener noreferrer">Começar agora</a>
           </div>
         </div>
       </nav>
