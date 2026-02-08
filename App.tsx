@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import FAQ from './components/FAQ';
 // Components are temporarily bypassed to use the monolithic layout provided by the user.
 // import Navbar from './components/Navbar';
 // import Hero from './components/Hero';
@@ -197,6 +198,88 @@ const App: React.FC = () => {
         </div>
       </section>
 
+      {/* Bonus Section */}
+      <section className="py-16 md:py-28 bg-gradient-to-br from-wine via-wine to-wine/90 overflow-hidden relative">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-primary rounded-full blur-[150px] -translate-y-1/2 translate-x-1/2"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-vibrant-orange rounded-full blur-[150px] translate-y-1/2 -translate-x-1/2"></div>
+        </div>
+        <div className="max-w-[1600px] mx-auto px-4 md:px-6 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12 items-center">
+            {/* Image Column - 3/5 of the space */}
+            <div className="order-2 lg:order-1 lg:col-span-3 flex justify-center">
+              <div className="relative group w-full">
+                <div className="absolute -inset-4 bg-gradient-to-r from-primary/30 to-vibrant-orange/30 rounded-[3rem] blur-2xl opacity-60 group-hover:opacity-80 transition-opacity duration-500"></div>
+                <img
+                  alt="Gerador de Looks - Provador Digital"
+                  className="relative w-full rounded-[2rem] shadow-2xl shadow-black/30 transform group-hover:scale-[1.01] transition-transform duration-500"
+                  src="/img/BONUS MEU LUUK.png"
+                />
+              </div>
+            </div>
+
+            {/* Text Column - 2/5 of the space */}
+            <div className="order-1 lg:order-2 lg:col-span-2 space-y-6 md:space-y-8">
+              <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-bold uppercase tracking-widest">
+                <span className="material-icons-outlined text-lg">auto_awesome</span>
+                Bônus Exclusivo
+              </div>
+
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
+                Experimente antes de vestir
+              </h2>
+
+              <p className="text-lg md:text-xl text-white/80 leading-relaxed">
+                Mas não adianta ter uma ferramenta eficiente se você continua acumulando roupas que não refletem seu estilo ou atendem às suas necessidades.
+              </p>
+
+              <p className="text-lg md:text-xl text-white/80 leading-relaxed">
+                É por isso que dentro do <span className="text-primary font-bold">Meu Luuk</span> você terá acesso ao <span className="text-primary font-bold">Gerador de Looks</span>, que é um provador digital onde você:
+              </p>
+
+              <div className="space-y-4 pt-2">
+                <div className="flex items-center gap-4 group">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+                    <span className="material-icons-outlined text-primary text-lg">visibility</span>
+                  </span>
+                  <span className="text-white text-base md:text-lg font-medium group-hover:text-primary transition-colors">Visualiza como cada look fica antes de vestir</span>
+                </div>
+                <div className="flex items-center gap-4 group">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+                    <span className="material-icons-outlined text-primary text-lg">shuffle</span>
+                  </span>
+                  <span className="text-white text-base md:text-lg font-medium group-hover:text-primary transition-colors">Testa infinitas combinações sem sair do sofá</span>
+                </div>
+                <div className="flex items-center gap-4 group">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+                    <span className="material-icons-outlined text-primary text-lg">schedule</span>
+                  </span>
+                  <span className="text-white text-base md:text-lg font-medium group-hover:text-primary transition-colors">Economiza tempo toda manhã</span>
+                </div>
+                <div className="flex items-center gap-4 group">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+                    <span className="material-icons-outlined text-primary text-lg">star</span>
+                  </span>
+                  <span className="text-white text-base md:text-lg font-medium group-hover:text-primary transition-colors">Descobre o que realmente valoriza seu estilo</span>
+                </div>
+                <div className="flex items-center gap-4 group">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+                    <span className="material-icons-outlined text-primary text-lg">savings</span>
+                  </span>
+                  <span className="text-white text-base md:text-lg font-medium group-hover:text-primary transition-colors">Para de comprar o que não vai usar</span>
+                </div>
+              </div>
+
+              <div className="pt-4 md:pt-6">
+                <p className="text-xl md:text-2xl font-bold text-primary italic">
+                  É o fim da crise de "não tenho o que vestir"! E o começo de um estilo com intenção.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 md:py-24 bg-white dark:bg-zinc-900 overflow-hidden relative" id="pricing">
         <div className="max-w-4xl mx-auto px-4 md:px-6">
           <div className="relative bg-white dark:bg-zinc-800 rounded-[2rem] md:rounded-[3rem] border-4 md:border-8 border-purple-brand p-6 md:p-12 lg:p-16 shadow-2xl text-center">
@@ -244,6 +327,8 @@ const App: React.FC = () => {
         </p>
       </section>
 
+      <FAQ />
+
       <section className="py-12 md:py-24 pb-32 md:pb-40 bg-cover bg-center bg-no-repeat relative px-4 md:px-6" id="contact" style={{ backgroundImage: "url('/img/FOTO10 1.png')" }}>
         <div className="absolute inset-0 bg-wine/75 dark:bg-zinc-900/90 backdrop-blur-sm"></div>
         <div className="absolute bottom-0 left-0 right-0 h-32 md:h-40 bg-gradient-to-b from-transparent to-wine"></div>
@@ -252,7 +337,7 @@ const App: React.FC = () => {
           <p className="text-gray-600 dark:text-gray-400 mb-6 md:mb-8 text-base md:text-lg">Aperte o botão para falar com a nossa equipe no WhatsApp.</p>
           <a className="flex items-center justify-center gap-3 md:gap-4 bg-[#29AF1C] text-white font-black text-lg md:text-2xl py-4 md:py-6 px-6 md:px-8 rounded-2xl hover:brightness-105 transition-all shadow-lg shadow-green-500/20 w-full whitespace-nowrap" href="https://w.app/c0pekt" target="_blank" rel="noopener noreferrer">
             <img alt="WhatsApp" className="w-8 h-8 md:w-12 md:h-12 flex-shrink-0" src="/img/wppbranco-removebg-preview.png" />
-            Falar com consultor
+            Falar no Whatsapp
           </a>
         </div>
       </section>
