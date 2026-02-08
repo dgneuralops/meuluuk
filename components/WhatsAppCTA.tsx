@@ -9,7 +9,7 @@ const WhatsAppCTA: React.FC = () => {
         <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg">Aperte o botão para falar com a nossa equipe no WhatsApp.</p>
         <a
           className="flex items-center justify-center gap-4 bg-[#29AF1C] text-white font-black text-3xl py-6 px-8 rounded-2xl hover:brightness-105 transition-all shadow-lg shadow-green-500/20 w-full"
-          href="https://w.app/c0pekt"
+          href="https://wa.me/+5562993167132"
           target="_blank"
           rel="noopener noreferrer"
         >
