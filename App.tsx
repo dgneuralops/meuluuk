@@ -335,7 +335,7 @@ const App: React.FC = () => {
         <div className="max-w-2xl mx-auto bg-white dark:bg-zinc-800 p-6 md:p-10 rounded-[24px] md:rounded-[40px] shadow-xl text-center border-2 border-primary/20 relative z-10">
           <h3 className="text-2xl md:text-3xl font-bold text-wine dark:text-white mb-3 md:mb-4">Ainda ficou com dúvida?</h3>
           <p className="text-gray-600 dark:text-gray-400 mb-6 md:mb-8 text-base md:text-lg">Aperte o botão para falar com a nossa equipe no WhatsApp.</p>
-          <a className="flex items-center justify-center gap-3 md:gap-4 bg-[#29AF1C] text-white font-black text-lg md:text-2xl py-4 md:py-6 px-6 md:px-8 rounded-2xl hover:brightness-105 transition-all shadow-lg shadow-green-500/20 w-full whitespace-nowrap" href="https://w.app/c0pekt" target="_blank" rel="noopener noreferrer">
+          <a className="flex items-center justify-center gap-3 md:gap-4 bg-[#29AF1C] text-white font-black text-lg md:text-2xl py-4 md:py-6 px-6 md:px-8 rounded-2xl hover:brightness-105 transition-all shadow-lg shadow-green-500/20 w-full whitespace-nowrap" href="https://wa.me/+5562993167132" target="_blank" rel="noopener noreferrer">
             <img alt="WhatsApp" className="w-8 h-8 md:w-12 md:h-12 flex-shrink-0" src="/img/wppbranco-removebg-preview.png" />
             Falar no Whatsapp
           </a>
