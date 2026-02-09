@@ -172,7 +172,7 @@ const App: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8">
             <div className="bg-white p-6 md:p-8 rounded-[24px] md:rounded-[40px] shadow-lg flex flex-col gap-4 md:gap-6 transform hover:-translate-y-2 transition-transform">
-              <div className="w-full h-[300px] md:h-auto md:aspect-square bg-[#E5E5E5] rounded-2xl md:rounded-3xl overflow-hidden flex items-center justify-center">
+              <div className="w-full h-[300px] md:h-auto md:aspect-square bg-[#6C1229] rounded-2xl md:rounded-3xl overflow-hidden flex items-center justify-center">
                 <img alt="App screen" className="w-full h-full object-contain" src="/img/2.png" />
               </div>
               <div>
