@@ -303,15 +303,15 @@ const App: React.FC = () => {
               </div>
               <div className="flex items-start gap-3">
                 <span className="material-icons-outlined text-primary bg-primary/10 rounded-full p-1 flex-shrink-0">check</span>
-                <span className="dark:text-gray-200 text-sm md:text-base">Armário Digital dentro do app Wardrobe</span>
+                <span className="dark:text-gray-200 text-sm md:text-base">Seu guarda-roupa na palma da sua mão</span>
               </div>
               <div className="flex items-start gap-3">
                 <span className="material-icons-outlined text-primary bg-primary/10 rounded-full p-1 flex-shrink-0">check</span>
-                <span className="dark:text-gray-200 text-sm md:text-base">Guia: Domine seu estilo em 7 dias</span>
+                <span className="dark:text-gray-200 text-sm md:text-base">Montagem de Looks</span>
               </div>
             </div>
             <a className="block w-full bg-primary text-wine font-black text-base md:text-xl lg:text-2xl py-4 md:py-6 rounded-2xl hover:scale-105 transition-transform shadow-xl mb-4 md:mb-6 px-4" href="https://pay.kiwify.com.br/oCcX4pQ">
-              QUERO DESCOBRIR MEU ESTILO AGORA
+              Quero meu armário digital
             </a>
             <div className="flex items-center justify-center gap-2 text-gray-500 text-sm font-medium">
               <span className="material-icons-outlined text-lg">verified_user</span>
