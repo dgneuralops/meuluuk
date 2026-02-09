@@ -172,14 +172,14 @@ const App: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8">
             <div className="bg-white p-6 md:p-8 rounded-[24px] md:rounded-[40px] shadow-lg flex flex-col gap-4 md:gap-6 transform hover:-translate-y-2 transition-transform">
-              <img alt="App screen" className="w-full h-[300px] md:h-auto md:aspect-square object-cover rounded-2xl md:rounded-3xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-B8VqjjEoitPDiZ2cc192z0EfgLRycoofgU7GijWVYM-6AfoRIYXhycjae-A2OaeZzGQYPkwq9fLJSMRHD4ncKoYModRX05gK_hZsJZzyOBdl0xmeVNNxW1RwDFdKRDfRqrpGDvPh2KwNcFB4lRNHKAhpy_uMgV2k5sVAWiPmN03xQQKW3FEwTiLQ1ORt85z7jJ0aNlBvsTMbZsvCHmfFBDNNY9oyFAypWZ3dv_ZGFKccYtU0Uv00tVeYKWsD6t3tbJoJKyzYrxo" />
+              <img alt="App screen" className="w-full h-[300px] md:h-auto md:aspect-square object-cover rounded-2xl md:rounded-3xl" src="/img/2.png" />
               <div>
                 <h3 className="text-xl md:text-2xl font-black text-wine mb-2 md:mb-4">Se vista rapidamente</h3>
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">Visualize todo seu armário em segundos. Com o Manual do armário digital você vai saber como cadastrar suas peças, tirar fotos, montar looks, etc.</p>
               </div>
             </div>
             <div className="bg-white p-6 md:p-8 rounded-[24px] md:rounded-[40px] shadow-lg flex flex-col gap-4 md:gap-6 transform hover:-translate-y-2 transition-transform">
-              <img alt="App screen" className="w-full h-[300px] md:h-auto md:aspect-square object-cover rounded-2xl md:rounded-3xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvm7-tQUxVLYxKPLmmNcJYB8rjRSF7s__-bFFETDc6_mfdO5FPXx-Dg063PzMnkdA7IU4yhSHTlCv5oRXs-BHxU2QcfbCdZenyGmslGnuK-7kpXDFbL4LNivOHvq5RCrqF90IqxJr59iEdgDXA4w6X9wwzAonS7I5_Wx-zF07MCHYMKAbDcWu7F14PJKuZYyvn2ZWUTWPeFuJwZum8-ziMuE3G1njpsIxlDeMmon1co-RM0TNjZNnR8uyWAcqb3JJIilDxUdTtNos" />
+              <img alt="App screen" className="w-full h-[300px] md:h-auto md:aspect-square object-cover rounded-2xl md:rounded-3xl" src="/img/3.png" />
               <div>
                 <h3 className="text-xl md:text-2xl font-black text-wine mb-2 md:mb-4">Organize e Visualize</h3>
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">Seu guarda-roupa do seu jeito. Veja tudo o que tem na sua mão. Pesquise, filtre, como quiser, onde quer que esteja. Planeje looks sem bagunçar nada.</p>
